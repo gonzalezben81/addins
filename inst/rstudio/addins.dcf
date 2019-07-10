@@ -1,0 +1,44 @@
+Name: Insert %in%
+Description: Inserts `%in%` at the cursor position.
+Binding: insertInAddin
+Interactive: false
+
+Name: Insert <-
+Description: Inserts '<-' at the cursor position
+Binding: insertArrowAddin
+Interactive: false
+
+Name: Insert !=
+Description: Inserts '!=' at the cursor position
+Binding: insertNotEqual
+Interactive: false
+
+Name: Insert ==
+Description: Inserts == at the cursor position.
+Binding: insertDoubleEqual
+Interactive: false
+
+Name: Insert <=
+Description: Inserts <= at the cursor position
+Binding: insertLessEqual
+Interactive: false
+
+Name: Insert =>
+Description: Inserts => at the cursor position
+Binding: insertGreaterEqual
+Interactive: false
+
+Name: Insert %>%
+Description: Inserts %>% at the cursor position.
+Binding: insertPipe
+Interactive: false
+
+Name: Insert &&
+Description: Inserts && at the cursor position.
+Binding: insertDoubleAmpersand
+Interactive: false
+
+Name: Insert ||
+Description: Inserts || at the cursor position.
+Binding: insertDoubleOr
+Interactive: false
