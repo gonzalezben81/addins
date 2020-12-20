@@ -2,15 +2,22 @@
 % Please edit documentation in R/insertDoublEqual.R
 \name{insertDoubleEqual}
 \alias{insertDoubleEqual}
-\title{Insert ==}
+\title{insertDoubleEqual}
 \usage{
 insertDoubleEqual()
 }
+\value{
+Inserts an == into the code.
+}
 \description{
-Call this function as an addin to insert \code{ == } at the cursor position.
+addins: insertDoubleEqual
+}
+\details{
+Call this function as an addin to insert == at the cursor position.
 }
 \examples{
 
-==
+insertDoubleEqual()
 
 }
+\keyword{insertDoubleEqual}

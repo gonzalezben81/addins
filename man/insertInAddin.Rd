@@ -2,15 +2,22 @@
 % Please edit documentation in R/insertInAddin.R
 \name{insertInAddin}
 \alias{insertInAddin}
-\title{Insert \%in\%.}
+\title{insertInAddin}
 \usage{
 insertInAddin()
 }
+\value{
+Inserts an %in%  into the code.
+}
 \description{
-Insert \%in\%.
+addins: insertInAddin
+}
+\details{
+Call this function as an addin to insert %in% at the cursor position.
 }
 \examples{
 
-\%in\%
+insertInAddin()
 
 }
+\keyword{insertInAddin}

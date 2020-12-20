@@ -2,15 +2,22 @@
 % Please edit documentation in R/insertDoubleOr.R
 \name{insertDoubleOr}
 \alias{insertDoubleOr}
-\title{Insert ||}
+\title{insertDoubleOr}
 \usage{
 insertDoubleOr()
 }
+\value{
+Inserts an || into the code.
+}
 \description{
-Call this function as an addin to insert \code{ || } at the cursor position.
+addins: insertDoubleOr
+}
+\details{
+Call this function as an addin to insert || at the cursor position.
 }
 \examples{
 
-||
+insertDoubleOr()
 
 }
+\keyword{insertDoubleOr}

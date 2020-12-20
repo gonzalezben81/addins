@@ -2,15 +2,22 @@
 % Please edit documentation in R/insertGreaterEqual.R
 \name{insertGreaterEqual}
 \alias{insertGreaterEqual}
-\title{Insert =>}
+\title{insertGreaterEqual}
 \usage{
 insertGreaterEqual()
 }
+\value{
+Inserts an => into the code.
+}
 \description{
-Call this function as an addin to insert \code{ <= } at the cursor position.
+addins: insertGreaterEqual()
+}
+\details{
+Call this function as an addin to insert => at the cursor position.
 }
 \examples{
 
-=>
+insertGreaterEqual()
 
 }
+\keyword{insertGreaterEqual}

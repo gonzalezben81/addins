@@ -2,16 +2,23 @@
 % Please edit documentation in R/insertNotequal.R
 \name{insertNotEqual}
 \alias{insertNotEqual}
-\title{Insert !=}
+\title{insertNotEqual}
 \usage{
 insertNotEqual()
 }
+\value{
+Inserts an != into the code.
+}
 \description{
-Call this function as an addin to insert \code{ != } at the cursor position.
+addins: insertNotEqual
+}
+\details{
+Call this function as an addin to insert != at the cursor position.
 }
 \examples{
  
 
-!=
+insertNotEqual()
 
 }
+\keyword{insertNotEqual}

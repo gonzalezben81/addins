@@ -2,15 +2,24 @@
 % Please edit documentation in R/insertPipe.R
 \name{insertPipe}
 \alias{insertPipe}
-\title{Insert %>%}
+\title{insertPipe}
 \usage{
 insertPipe()
 }
+\value{
+Inserts an %>% into the code.
+}
 \description{
-Insert %>%
+addins: insertPipe
+}
+\details{
+Call this function as an addin to insert %>% at the cursor position.
 }
 \examples{
+library(rstudioapi)
+library(addins)
 
-\%>\%
+insertPipe()
 
 }
+\keyword{insertPipe}

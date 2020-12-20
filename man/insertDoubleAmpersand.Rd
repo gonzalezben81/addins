@@ -2,15 +2,22 @@
 % Please edit documentation in R/insertDoubleAmpersand.R
 \name{insertDoubleAmpersand}
 \alias{insertDoubleAmpersand}
-\title{Insert &&}
+\title{insertDoubleAmpersand}
 \usage{
 insertDoubleAmpersand()
 }
+\value{
+Inserts an && into the code.
+}
 \description{
-Call this function as an addin to insert \code{ && } at the cursor position.
+addins: insertDoubleAmpersand
+}
+\details{
+Call this function as an addin to insert && at the cursor position.
 }
 \examples{
 
-&&
+insertDoubleAmpersand()
 
 }
+\keyword{insertDoubleAmpersand}

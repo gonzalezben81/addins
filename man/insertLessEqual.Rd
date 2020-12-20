@@ -2,10 +2,21 @@
 % Please edit documentation in R/insertLessEqual.R
 \name{insertLessEqual}
 \alias{insertLessEqual}
-\title{Insert <=}
+\title{insertLessEqual}
 \usage{
 insertLessEqual()
 }
-\description{
-Call this function as an addin to insert \code{ \<\= } at the cursor position.
+\value{
+Inserts an <= into the code.
 }
+\description{
+addins: insertLessEqual
+}
+\details{
+Call this function as an addin to insert <= at the cursor position.
+}
+\examples{
+insertLessEqual()
+
+}
+\keyword{insertLessEqual}

@@ -3,8 +3,8 @@ Type: Package
 Title: Keyboard Shortcuts for Efficient Coding
 Version: 0.1.0
 Author: Ben Gonzalez
-Maintainer: <gonzalezben81@gmail.com>
-Description: This package has increased functionality for keyboard shortcuts. 
+Maintainer: <gonzalezben393@gmail.com>
+Description: This package increases functionality for keyboard shortcuts. 
     The shortcuts are operators that are used for basic and advanced programming in R.
 License: MIT
 Encoding: UTF-8
@@ -12,4 +12,4 @@ LazyData: true
 Imports: rstudioapi
 NeedsCompilation: no
 Packaged: 2018-08-06 21:44:39 UTC; gcdqw
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1

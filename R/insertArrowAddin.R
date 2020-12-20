@@ -1,4 +1,4 @@
-# insertDoubleOr
+# insertArrowAddin
 #
 # You can learn more about package authoring with RStudio at:
 #
@@ -9,21 +9,20 @@
 #   Build and Reload Package:  'Ctrl + Shift + B'
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
-#' addins: insertDoubleOr
-#' 
-#' Call this function as an addin to insert || at the cursor position.
-#'
-#' @keywords insertDoubleOr
-#' @return Inserts an || into the code. 
-#' @name insertDoubleOr
-#' @title insertDoubleOr
-#' @usage insertDoubleOr()
+#' addins: insertArrowAddin
+#' Call this function as an addin to insert <- at the cursor position.
+#' @keywords insertArrowAddin
+#' @return Inserts an <- into the code. 
+#' @name insertArrowAddin
+#' @title insertArrowAddin
+#' @usage insertArrowAddin()
 #' @import rstudioapi
 #' @examples 
 #' 
-#' insertDoubleOr()
+#' insertArrowAddin()
+#'
 #'
 #' @export
-insertDoubleOr <- function() {
-  rstudioapi::insertText(text = "||")
+insertArrowAddin <- function() {
+  rstudioapi::insertText("<-")
 }
